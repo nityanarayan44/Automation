@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="1" name="A.Just A feature file" skipped="0" tests="1" time="0.0"><testcase classname="A.Just A feature file" name="Doing A: Step1" status="failed" time="0.0"><failure message="None" type="NoneType">
+<![CDATA[
+Failing step: Given some data ... undefined in 0.000s
+Location: Src\Features\A.feature:3
+None]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Doing A: Step1
+    Given some data ... undefined in 0.000s
+    Then i will perform something ... undefined in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
