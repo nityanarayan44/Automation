@@ -1,10 +1,9 @@
-package org.nng.test.regression.TestCases;
+package org.nng.test.Sample.TestCases;
 
 //import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 import org.nng.automation.utils.*;
-import org.nng.utils.DateAndTime;
 import org.nng.utils.Excel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -89,6 +88,8 @@ public class Case2_GoogleSearch_WithTestData {
 				// 3 - Capture ScreenShot
 					this.action.captureBrowserScreenshot(this.driver.webDriver, this.screenShot );
 			} catch (Exception err) {
+				System.out.println(" Failure Stacktrace: ");
+				err.printStackTrace();
 				// Take screenShot in Case of Failure.
 				//ScreenShotCapture.captureScreen(driver, this.testCaseName);
 				Assert.fail(this.testStepdesc + " Failed!! ", err);
@@ -111,6 +112,8 @@ public class Case2_GoogleSearch_WithTestData {
 					System.out.printf("Search Result Text :\n\n\n %s \n\n\n", totalSearch);
 					
 			} catch (Exception err) {
+				System.out.println(" Failure Stacktrace: ");
+				err.printStackTrace();
 				// Capture the screenshot
 				//ScreenShotCapture.captureScreen(driver, vansahTestcaseName);
 				Assert.fail(this.testStepdesc + " Failed!!", err);

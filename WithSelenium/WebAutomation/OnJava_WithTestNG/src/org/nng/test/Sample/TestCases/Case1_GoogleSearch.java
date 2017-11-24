@@ -3,7 +3,7 @@
  * @Modified 24 Nov 2017
  */
 
-package org.nng.test.regression.TestCases;
+package org.nng.test.Sample.TestCases;
 
 import org.nng.automation.utils.*;
 import org.openqa.selenium.By;
@@ -69,9 +69,10 @@ public class Case1_GoogleSearch {
 					this.action.setElementValue(this.driver.webDriver, "name", "q", "This is Earth"+Keys.ENTER);
 				
 			} catch (Exception err) {
+				err.printStackTrace();
 				// Take screenShot in Case of Failure.
 				//ScreenShotCapture.captureScreen(driver, this.testCaseName);
-				Assert.fail(this.testStepdesc + "--Failed!! ", err);
+				Assert.fail(this.testStepdesc + "--Failed!! ");
 			}
 		}
 
@@ -92,9 +93,11 @@ public class Case1_GoogleSearch {
 					System.out.printf("Total Search Result Length: %d \n", totalSearch);
 					
 			} catch (Exception err) {
+				System.out.println(" Failure Stacktrace: ");
+				err.printStackTrace();
 				// Capture the screenshot
 				//ScreenShotCapture.captureScreen(driver, vansahTestcaseName);
-				Assert.fail(this.testStepdesc + "--Failed!!", err);	
+				Assert.fail(this.testStepdesc + "--Failed!!");	
 			}
 		}
 
