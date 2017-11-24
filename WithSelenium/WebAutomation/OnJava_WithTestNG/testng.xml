@@ -7,15 +7,14 @@
 	<test name="Sample_GoogleSearch">
 		<classes>
 			<class name="org.nng.test.Sample.TestCases.Case1_GoogleSearch" />
+			<class name="org.nng.test.Sample.TestCases.Case2_GoogleSearch_WithTestData" />
 		</classes>
 	</test>
 
 	<!-- 
 	<test name="Sample_Another">
 		<classes>
-			<class name="com.regression.TestCases.TC_199_VerifyResidentsInSection" />
-			
-			<class name="org.nng.test.Sample.TestCases.Case1_GoogleSearch_WithTestData" />
+			<class name="org.nng.test.Sample.TestCases.Case2_GoogleSearch_WithTestData" />
 		</classes>
 	</test>
 	-->

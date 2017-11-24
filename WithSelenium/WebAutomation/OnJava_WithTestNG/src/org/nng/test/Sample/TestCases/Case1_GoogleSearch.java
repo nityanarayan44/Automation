@@ -6,6 +6,7 @@
 package org.nng.test.Sample.TestCases;
 
 import org.nng.automation.utils.*;
+import org.nng.test.Sample.pageObjects.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
@@ -21,6 +22,7 @@ public class Case1_GoogleSearch {
 	 * ==========================================================
 	 */
 		//--- #Class Objects [Includes PageObject Also]
+			Google google = new Google();
 			Driver driver = new Driver();
 			Action action = new Action();
 			
@@ -54,52 +56,17 @@ public class Case1_GoogleSearch {
 	 * ==========================================================
 	 */
 
-			
-		@Test(priority = 1, enabled = true)
-		public void testGoogleSearch() {
-			
-			//TODO: Set and Send the project Info to server
-			try {
-				// Opening Google
-					this.testStepdesc = "Opening https://www.google.co.in";
-					this.driver.open("https://www.google.co.in");
-				
-				// Entering a keyword to search
-					this.testStepdesc = "Entering a keyword to search in google";
-					this.action.setElementValue(this.driver.webDriver, "name", "q", "This is Earth"+Keys.ENTER);
-				
-			} catch (Exception err) {
-				err.printStackTrace();
-				// Take screenShot in Case of Failure.
-				//ScreenShotCapture.captureScreen(driver, this.testCaseName);
-				Assert.fail(this.testStepdesc + "--Failed!! ");
-			}
+		@Test
+		public void f1() throws Exception {
+			// Open google Search
+				this.driver.webDriver = this.google.openGoogleSearch(this.driver.webDriver);
+			// Search a keyword under Image category
+				this.driver.webDriver = this.google.searchImage(this.driver.webDriver, "This is java");
+			// Get total image count for this keyword search.
+				System.out.println("Total Count: " + this.google.getTotalImageCount(this.driver.webDriver));
+			//END
+			return;
 		}
-
-		/*
-		 * Depended function, after priority-1
-		 * --------------------------------------
-		 */
-		@Test(dependsOnMethods = "testGoogleSearch")
-		public void collectTheSearchResult() throws Exception {
-			try{
-				// Wait for few
-					Thread.sleep(5000);
-					
-				// Capturing all the result.
-					this.testStepdesc = "Capturing all the search result";
-					//int totalSearch = this.action.findElementWithExplicitWait(this.driver.webDriver, "xpath", "//*[@id='ires']/div/", 15);
-					int totalSearch = this.driver.webDriver.findElements(By.xpath("//*[@id='ires']/div/div")).size();
-					System.out.printf("Total Search Result Length: %d \n", totalSearch);
-					
-			} catch (Exception err) {
-				System.out.println(" Failure Stacktrace: ");
-				err.printStackTrace();
-				// Capture the screenshot
-				//ScreenShotCapture.captureScreen(driver, vansahTestcaseName);
-				Assert.fail(this.testStepdesc + "--Failed!!");	
-			}
-		}
-
+		
 // #BOTTOM	
 } /* EOClass */
