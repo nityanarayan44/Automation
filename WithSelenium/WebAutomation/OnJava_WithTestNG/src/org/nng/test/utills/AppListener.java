@@ -20,7 +20,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
-import org.nng.test.utills.GetBrowserInstance;
+//import org.nng.test.utills.GetBrowserInstance;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -42,7 +42,7 @@ public class AppListener implements ITestListener
 	@Override
 	public void onTestFailure(ITestResult result) {
 		System.out.println("The name of the testcase failed is: " + result.getName());
-		this.driver = ((GetBrowserInstance)result.getInstance()).getDriver();
+		//this.driver = ((GetBrowserInstance)result.getInstance()).getDriver();
 		captureScreen(driver, result.getName(), result.getTestName());
 		
 		
