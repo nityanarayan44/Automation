@@ -1,8 +1,12 @@
 package org.nng.test.Sample.pageObjects;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.nng.automation.utils.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class Google {
 	
@@ -81,5 +85,19 @@ public class Google {
 		//------------------
 				public int getTotalImageCount(WebDriver webDriver) throws Exception {
 					return webDriver.findElements(By.xpath(this.searchResultForImage)).size();
+				}
+				
+				public ArrayList<String> getallImageSourceList(WebDriver webDriver) throws Exception {
+					ArrayList<String> imageList = new ArrayList<String>();
+					List<WebElement> lst = webDriver.findElements(By.xpath(this.searchResultForImage));
+					for (WebElement element : lst) {
+						if(element.getAttribute("src") != null)
+							imageList.add( element.getAttribute("src") );
+						else if (element.getAttribute("data-src") != null)
+							imageList.add( element.getAttribute("data-src") );
+						else
+							imageList.add("No Source Found, May be image not loaded yet.");
+					}
+					return imageList;
 				}
 }

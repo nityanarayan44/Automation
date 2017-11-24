@@ -24,7 +24,8 @@ public class Constants {
 	//----------- DataFiles ----------
 		public static final String dataFile = "src\\org\\nng\\test\\dataFiles\\TestData.xlsx";
 		
-		
+	//----------- TestOutput ---------
+		public static final String testOutput = "test-output\\";
 		
 
 }
