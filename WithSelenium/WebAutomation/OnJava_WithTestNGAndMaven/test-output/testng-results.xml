@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11495" started-at="2017-11-24T08:07:29Z" finished-at="2017-11-24T08:07:41Z">
+  <suite name="Default suite" duration-ms="12112" started-at="2017-11-24T08:19:01Z" finished-at="2017-11-24T08:19:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11495" started-at="2017-11-24T08:07:29Z" finished-at="2017-11-24T08:07:41Z">
+    <test name="Default test" duration-ms="12112" started-at="2017-11-24T08:19:01Z" finished-at="2017-11-24T08:19:13Z">
       <class name="org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData">
-        <test-method status="PASS" signature="Conf1()[pri:0, instance:org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData@2c9f9fb0]" name="Conf1" is-config="true" duration-ms="5491" started-at="2017-11-24T13:37:29Z" finished-at="2017-11-24T13:37:35Z">
+        <test-method status="PASS" signature="Conf1()[pri:0, instance:org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData@366e2eef]" name="Conf1" is-config="true" duration-ms="5667" started-at="2017-11-24T13:49:01Z" finished-at="2017-11-24T13:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Conf1 -->
-        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData@2c9f9fb0]" name="testGoogleSearch" duration-ms="3565" started-at="2017-11-24T13:37:35Z" finished-at="2017-11-24T13:37:39Z">
+        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData@366e2eef]" name="testGoogleSearch" duration-ms="3315" started-at="2017-11-24T13:49:07Z" finished-at="2017-11-24T13:49:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogleSearch -->
-        <test-method status="PASS" signature="collectTheSearchResult()[pri:0, instance:org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData@2c9f9fb0]" name="collectTheSearchResult" duration-ms="1318" started-at="2017-11-24T13:37:39Z" depends-on-methods="org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData.testGoogleSearch" finished-at="2017-11-24T13:37:40Z">
+        <test-method status="PASS" signature="collectTheSearchResult()[pri:0, instance:org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData@366e2eef]" name="collectTheSearchResult" duration-ms="1185" started-at="2017-11-24T13:49:10Z" depends-on-methods="org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData.testGoogleSearch" finished-at="2017-11-24T13:49:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- collectTheSearchResult -->
-        <test-method status="PASS" signature="conf2()[pri:0, instance:org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData@2c9f9fb0]" name="conf2" is-config="true" duration-ms="1095" started-at="2017-11-24T13:37:40Z" finished-at="2017-11-24T13:37:41Z">
+        <test-method status="PASS" signature="conf2()[pri:0, instance:org.nng.test.regression.TestCases.Case2_GoogleSearch_WithTestData@366e2eef]" name="conf2" is-config="true" duration-ms="1916" started-at="2017-11-24T13:49:11Z" finished-at="2017-11-24T13:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- conf2 -->

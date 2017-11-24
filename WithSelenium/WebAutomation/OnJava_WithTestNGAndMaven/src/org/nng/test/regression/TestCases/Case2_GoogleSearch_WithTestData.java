@@ -1,6 +1,9 @@
 package org.nng.test.regression.TestCases;
 
 import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
+
 import org.nng.automation.utils.*;
 import org.nng.utils.Excel;
 import org.openqa.selenium.By;
@@ -54,6 +57,7 @@ public class Case2_GoogleSearch_WithTestData {
 			@AfterClass
 			public void conf2() throws Exception{
 				this.driver.quitDriver();
+				javax.swing.JOptionPane.showMessageDialog(null, "TestCase Executed", "Done", JOptionPane.INFORMATION_MESSAGE);
 			}
 	/*
 	 * ==========================================================

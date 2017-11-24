@@ -3,12 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ReferenceLib"/>
-	<classpathentry kind="lib" path="E:/MY-WORKPLACE/__GIT_PROJECTS/Java_Projects/Automation/WithSelenium/WebAutomation/OnJava_WithTestNGAndMaven/lib/org.nng-v1.jar"/>
-	<classpathentry kind="lib" path="E:/MY-WORKPLACE/__GIT_PROJECTS/Java_Projects/Automation/WithSelenium/WebAutomation/OnJava_WithTestNGAndMaven/lib/poi-3.14-beta1-20151223.jar"/>
-	<classpathentry kind="lib" path="E:/MY-WORKPLACE/__GIT_PROJECTS/Java_Projects/Automation/WithSelenium/WebAutomation/OnJava_WithTestNGAndMaven/lib/poi-examples-3.14-beta1-20151223.jar"/>
-	<classpathentry kind="lib" path="E:/MY-WORKPLACE/__GIT_PROJECTS/Java_Projects/Automation/WithSelenium/WebAutomation/OnJava_WithTestNGAndMaven/lib/poi-excelant-3.14-beta1-20151223.jar"/>
-	<classpathentry kind="lib" path="E:/MY-WORKPLACE/__GIT_PROJECTS/Java_Projects/Automation/WithSelenium/WebAutomation/OnJava_WithTestNGAndMaven/lib/poi-ooxml-3.14-beta1-20151223.jar"/>
-	<classpathentry kind="lib" path="E:/MY-WORKPLACE/__GIT_PROJECTS/Java_Projects/Automation/WithSelenium/WebAutomation/OnJava_WithTestNGAndMaven/lib/poi-ooxml-schemas-3.14-beta1-20151223.jar"/>
-	<classpathentry kind="lib" path="E:/MY-WORKPLACE/__GIT_PROJECTS/Java_Projects/Automation/WithSelenium/WebAutomation/OnJava_WithTestNGAndMaven/lib/poi-scratchpad-3.14-beta1-20151223.jar"/>
+	<classpathentry kind="lib" path="E:/MY-WORKPLACE/__GIT_PROJECTS/Java_Projects/Automation/WithSelenium/WebAutomation/OnJava_WithTestNGAndMaven/lib/org.nng-v2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
