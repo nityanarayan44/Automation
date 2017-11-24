@@ -84,7 +84,7 @@ public class Case2_GoogleSearch_WithTestData {
 			} catch (Exception err) {
 				// Take screenShot in Case of Failure.
 				//ScreenShotCapture.captureScreen(driver, this.testCaseName);
-				Assert.fail(this.testStepdesc + "--Failed!! ", err);
+				Assert.fail(this.testStepdesc + " Failed!! ", err);
 			}
 		}
 
@@ -106,7 +106,7 @@ public class Case2_GoogleSearch_WithTestData {
 			} catch (Exception err) {
 				// Capture the screenshot
 				//ScreenShotCapture.captureScreen(driver, vansahTestcaseName);
-				Assert.fail(this.testStepdesc + "--Failed!!", err);	
+				Assert.fail(this.testStepdesc + " Failed!!", err);
 			}
 		}
 
