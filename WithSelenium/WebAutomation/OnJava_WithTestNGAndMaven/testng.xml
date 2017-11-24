@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="BHS-BestDose" parallel="tests" thread-count="1">
+<suite name="Test-TestNG_Maven" parallel="tests" thread-count="1">
 
 	<test name="TC_89_LoginAndVerify">
 		<classes>
