@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [BHS-BestDose]" parallel="tests">
+  <test name="TC_89_LoginAndVerify(failed)" parallel="tests">
+    <classes>
+      <class name="com.regression.TestCases.TC_89_LoginAndVerify">
+        <methods>
+          <include name="getBrowserInstance"/>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_89_LoginAndVerify -->
+      <class name="com.regression.TestCases.TC_199_VerifyResidentsInSection">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getBrowserInstance"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_199_VerifyResidentsInSection -->
+      <class name="com.regression.TestCases.TC_05_VerifyColorCode">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getBrowserInstance"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_05_VerifyColorCode -->
+    </classes>
+  </test> <!-- TC_89_LoginAndVerify(failed) -->
+  <test name="TC_199_VerifyResidentsInSection(failed)" parallel="tests">
+    <classes>
+      <class name="com.regression.TestCases.TC_89_LoginAndVerify">
+        <methods>
+          <include name="getBrowserInstance"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_89_LoginAndVerify -->
+      <class name="com.regression.TestCases.TC_199_VerifyResidentsInSection">
+        <methods>
+          <include name="verifyResidents"/>
+          <include name="tearDown"/>
+          <include name="getBrowserInstance"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_199_VerifyResidentsInSection -->
+      <class name="com.regression.TestCases.TC_05_VerifyColorCode">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getBrowserInstance"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_05_VerifyColorCode -->
+    </classes>
+  </test> <!-- TC_199_VerifyResidentsInSection(failed) -->
+  <test name="TC_05_VerifyColorCode(failed)" parallel="tests">
+    <classes>
+      <class name="com.regression.TestCases.TC_89_LoginAndVerify">
+        <methods>
+          <include name="getBrowserInstance"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_89_LoginAndVerify -->
+      <class name="com.regression.TestCases.TC_05_VerifyColorCode">
+        <methods>
+          <include name="verifyColorCode"/>
+          <include name="tearDown"/>
+          <include name="getBrowserInstance"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_05_VerifyColorCode -->
+      <class name="com.regression.TestCases.TC_199_VerifyResidentsInSection">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getBrowserInstance"/>
+        </methods>
+      </class> <!-- com.regression.TestCases.TC_199_VerifyResidentsInSection -->
+    </classes>
+  </test> <!-- TC_05_VerifyColorCode(failed) -->
+</suite> <!-- Failed suite [BHS-BestDose] -->

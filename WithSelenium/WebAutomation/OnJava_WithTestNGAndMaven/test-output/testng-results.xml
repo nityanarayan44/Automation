@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68165" started-at="2017-10-11T10:28:32Z" finished-at="2017-10-11T10:29:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68165" started-at="2017-10-11T10:28:32Z" finished-at="2017-10-11T10:29:40Z">
+      <class name="com.regression.TestCases.TC_128_AddNewUser_byFM">
+        <test-method status="PASS" signature="starttime()[pri:0, instance:com.regression.TestCases.TC_128_AddNewUser_byFM@62ee68d8]" name="starttime" is-config="true" duration-ms="8" started-at="2017-10-11T15:58:32Z" finished-at="2017-10-11T15:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttime -->
+        <test-method status="PASS" signature="getBrowserInstance()[pri:0, instance:com.regression.TestCases.TC_128_AddNewUser_byFM@62ee68d8]" name="getBrowserInstance" is-config="true" duration-ms="2743" started-at="2017-10-11T15:58:32Z" finished-at="2017-10-11T15:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserInstance -->
+        <test-method status="PASS" signature="addNewUser_byFM()[pri:0, instance:com.regression.TestCases.TC_128_AddNewUser_byFM@62ee68d8]" name="addNewUser_byFM" duration-ms="47818" started-at="2017-10-11T15:58:35Z" finished-at="2017-10-11T15:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser_byFM -->
+        <test-method status="PASS" signature="verifyHandOverNoteAccordingToDates()[pri:0, instance:com.regression.TestCases.TC_128_AddNewUser_byFM@62ee68d8]" name="verifyHandOverNoteAccordingToDates" duration-ms="16432" started-at="2017-10-11T15:59:23Z" depends-on-methods="com.regression.TestCases.TC_128_AddNewUser_byFM.addNewUser_byFM" finished-at="2017-10-11T15:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHandOverNoteAccordingToDates -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.regression.TestCases.TC_128_AddNewUser_byFM@62ee68d8]" name="tearDown" is-config="true" duration-ms="1157" started-at="2017-10-11T15:59:39Z" finished-at="2017-10-11T15:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="aftertime()[pri:0, instance:com.regression.TestCases.TC_128_AddNewUser_byFM@62ee68d8]" name="aftertime" is-config="true" duration-ms="1" started-at="2017-10-11T15:59:41Z" finished-at="2017-10-11T15:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertime -->
+      </class> <!-- com.regression.TestCases.TC_128_AddNewUser_byFM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

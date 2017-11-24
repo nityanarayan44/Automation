@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="BHS-BestDose" parallel="tests" thread-count="1">
+
+	<test name="TC_89_LoginAndVerify">
+		<classes>
+			<class name="com.regression.TestCases.TC_89_LoginAndVerify" />
+		</classes>
+	</test>
+
+	<test name="TC_199_VerifyResidentsInSection">
+		<classes>
+			<class name="com.regression.TestCases.TC_199_VerifyResidentsInSection" />
+		</classes>
+	</test>
+
+
+	<test name="TC_05_VerifyColorCode">
+		<classes>
+			<class name="com.regression.TestCases.TC_05_VerifyColorCode" />
+		</classes>
+	</test>
+
+
+	<test name="TC_11_OpenDoseVerification">
+		<classes>
+			<class name="com.regression.TestCases.TC_11_OpenDoseVerification" />
+		</classes>
+	</test>
+
+	<test name="TC_12_VerifyDifferentMedication">
+		<classes>
+			<class name="com.regression.TestCases.TC_12_VerifyDifferentMedication" />
+		</classes>
+	</test>
+
+	<test name="TC_13_VerifyCloseDoseRound">
+		<classes>
+			<class name="com.regression.TestCases.TC_13_VerifyCloseDoseRound" />
+		</classes>
+	</test>
+
+	<test name="TC_03_VeriffyOutofDoseRound">
+		<classes>
+			<class name="com.regression.TestCases.TC_03_VeriffyOutofDoseRound" />
+		</classes>
+	</test>
+
+	<test name="TC_02_VerifyHeadingOutOfDoseRounds">
+		<classes>
+			<class name="com.regression.TestCases.TC_02_VerifyHeadingOutOfDoseRounds" />
+		</classes>
+	</test>
+
+	<test name="TC_04_VerifyDoseTimeForTomorrow">
+		<classes>
+			<class name="com.regression.TestCases.TC_04_VerifyDoseTimeForTomorrow" />
+		</classes>
+	</test>
+
+	<test name="TC_201_ODROldDateResident">
+		<classes>
+			<class name="com.regression.TestCases.TC_201_ODROldDateResident" />
+		</classes>
+	</test>
+
+	<test name="TC_202_ODRVerifyForFutureDates">
+		<classes>
+			<class name="com.regression.TestCases.TC_202_ODRVerifyForFutureDates" />
+		</classes>
+	</test>
+
+	<test name="TC_31_AdminsterPackedRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_31_AdminsterPackedRN" />
+		</classes>
+	</test>
+
+	<test name="TC_35_AdministerNonPackedRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_35_AdministerNonPackedRN" />
+		</classes>
+	</test>
+
+	<test name="TC_37_AdministerPackedRNReason">
+		<classes>
+			<class name="com.regression.TestCases.TC_37_AdministerPackedRNReason" />
+		</classes>
+	</test>
+
+	<test name="TC_21_AdministerPackedAIN">
+		<classes>
+			<class name="com.regression.TestCases.TC_21_AdministerPackedAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_22_AdministerNonPackedAIN">
+		<classes>
+			<class name="com.regression.TestCases.TC_22_AdministerNonPackedAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_195_AdministerPackedAINWrongQty">
+		<classes>
+			<class name="com.regression.TestCases.TC_195_AdministerPackedAINWrongQty" />
+		</classes>
+	</test>
+
+	<test name="TC_196_AdministerPackedAINReason">
+		<classes>
+			<class name="com.regression.TestCases.TC_196_AdministerPackedAINReason" />
+		</classes>
+	</test>
+
+	<test name="TC_197_AdministerPackedAIN_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_197_AdministerPackedAIN_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_198_AdministerPackedAIN_UnpackeckRN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_198_AdministerPackedAIN_UnpackeckRN" />
+		</classes>
+	</test>
+
+	<test name="TC_194_AdministerInsulinBGLVerification">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_194_AdministerInsulinBGLVerification" />
+		</classes>
+	</test>
+
+	<test name="TC_193_AdministerDigoxinWithPulse">
+		<classes>
+			<class name="com.regression.TestCases.TC_193_AdministerDigoxinWithPulse" />
+		</classes>
+	</test>
+
+	<test name="TC_44_AdministerNonPackedDigoxin">
+		<classes>
+			<class name="com.regression.TestCases.TC_44_AdministerNonPackedDigoxin" />
+		</classes>
+	</test>
+
+	<test name="TC_191_AdministerS8_byRN_DiffFacilityAinPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_191_AdministerS8_byRN_DiffFacilityAinPin" />
+		</classes>
+	</test>
+
+	<test name="TC_49_AdministerS8_byAIN">
+		<classes>
+			<class name="com.regression.TestCases.TC_49_AdministerS8_byAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_189_AdministerS8_byAIN_DiffFacilityRNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_189_AdministerS8_byAIN_DiffFacilityRNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_192_AdministerS8_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_192_AdministerS8_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_187_AdministerPackedS8">
+		<classes>
+			<class name="com.regression.TestCases.TC_187_AdministerPackedS8" />
+		</classes>
+	</test>
+
+	<test name="TC_50_AdministerInsulin_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_50_AdministerInsulin_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_190_AdministerS8_byRN_DiffFacilityRNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_190_AdministerS8_byRN_DiffFacilityRNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_188_AdministerS8_byAIN_SecondAINPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_188_AdministerS8_byAIN_SecondAINPin" />
+		</classes>
+	</test>
+
+	<test name="TC_41_AdministerS8_asRN_by2ndRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_41_AdministerS8_asRN_by2ndRN" />
+		</classes>
+	</test>
+
+	<test name="TC_181_AdministerInsulin_DiffFacilityAINPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_181_AdministerInsulin_DiffFacilityAINPin" />
+		</classes>
+	</test>
+
+	<test name="TC_182_AdministerInsulin_DiffRNPin">
+		<classes>
+			<class name="com.regression.TestCases.TC_182_AdministerInsulin_DiffRNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_183_AdministerInsulin_DiffFacilityRNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_183_AdministerInsulin_DiffFacilityRNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_184_AdministerInsulin_ByAin_SameFacilityRNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_184_AdministerInsulin_ByAin_SameFacilityRNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_185_AdministerInsulin_byAIN_DiffRNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_185_AdministerInsulin_byAIN_DiffRNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_40_AdministerInsulin_byAIN_DiffAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_40_AdministerInsulin_byAIN_DiffAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_186_AdministerInsulin_byAIN_DiffFacilityAINPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_186_AdministerInsulin_byAIN_DiffFacilityAINPin" />
+		</classes>
+	</test>
+
+	<test name="TC_48_AdministerNonPckdVariable_byRN_byAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_48_AdministerNonPckdVariable_byRN_byAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_178_AdministerNonPckdVariable_byRN_byDiffFacilityAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_178_AdministerNonPckdVariable_byRN_byDiffFacilityAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_179_AdministerNonPckdVariable_byRN_bySecondRN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_179_AdministerNonPckdVariable_byRN_bySecondRN" />
+		</classes>
+	</test>
+
+	<test name="TC_180_AdministerNonPckdVariable_byRN_byDiffFaciliityRN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_180_AdministerNonPckdVariable_byRN_byDiffFaciliityRN" />
+		</classes>
+	</test>
+
+	<test name="TC_47_AdministerNonPckdVariable_asAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_47_AdministerNonPckdVariable_asAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_177_AdministerPckdVariable_asRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_177_AdministerPckdVariable_asRN" />
+		</classes>
+	</test>
+
+	<test name="TC_203_AdministerS8_asRN_byAgencyAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_203_AdministerS8_asRN_byAgencyAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_204_AdministerS8_asRN_byAgencyRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_204_AdministerS8_asRN_byAgencyRN" />
+		</classes>
+	</test>
+
+	<test name="TC_53_AdministerPackedPRN_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_53_AdministerPackedPRN_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_54_AdministerNonPackedPRN_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_54_AdministerNonPackedPRN_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_55_AdministerInsulinPRN_byRN_DiffRNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_55_AdministerInsulinPRN_byRN_DiffRNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_56_AdministerNonPkdS8PRN_byRN_DiffRNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_56_AdministerNonPkdS8PRN_byRN_DiffRNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_57_AdministerNonPkdS8PRN_byRN_DiffFcltyAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_57_AdministerNonPkdS8PRN_byRN_DiffFcltyAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_176_AdministerNonPackedPRN_byAIN">
+		<classes>
+			<class name="com.regression.TestCases.TC_176_AdministerNonPackedPRN_byAIN" />
+		</classes>
+	</test>
+
+
+	<test name="TC_123_AdministerNonPkdS8PRN_byRN_byAINPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_123_AdministerNonPkdS8PRN_byRN_byAINPin" />
+		</classes>
+	</test>
+
+	<test name="TC_171_AdministerNonPkdS8PRN_byRN_DiffFcltyRN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_171_AdministerNonPkdS8PRN_byRN_DiffFcltyRN" />
+		</classes>
+	</test>
+
+	<test name="TC_172_AdministerNonPackedS8PRN_byAIN_2RNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_172_AdministerNonPackedS8PRN_byAIN_2RNPin" />
+		</classes>
+	</test>
+
+
+	<test name="TC_173_AdministerNonPkdS8PRN_byAIN_DiffFcltyRN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_173_AdministerNonPkdS8PRN_byAIN_DiffFcltyRN" />
+		</classes>
+	</test>
+
+	<test name="TC_174_AdministerNonPackedS8PRN_byAIN_2SameAin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_174_AdministerNonPackedS8PRN_byAIN_2SameAin" />
+		</classes>
+	</test>
+
+	<test name="TC_175_AdministerNonPkdS8PRN_byAIN_DiffFcltyAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_175_AdministerNonPkdS8PRN_byAIN_DiffFcltyAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_122_AdministerPackedS8PRN_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_122_AdministerPackedS8PRN_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_124_AdministerInsulinPRN_byRN_byAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_124_AdministerInsulinPRN_byRN_byAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_167_AdministerInsulinPRN_byRN_byAINDiffFacility">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_167_AdministerInsulinPRN_byRN_byAINDiffFacility" />
+		</classes>
+	</test>
+
+	<!-- <test name="TC_55_AdministerInsulinPRN_byRN_DiffRNPin"> <classes> <class 
+		name="com.regression.TestCases.TC_55_AdministerInsulinPRN_byRN_DiffRNPin" 
+		/> </classes> </test> -->
+
+	<test name="TC_166_AdministerInsulinPRN_byRN_bySecondRNDiffFacility">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_166_AdministerInsulinPRN_byRN_bySecondRNDiffFacility" />
+		</classes>
+	</test>
+
+	<test name="TC_61_AdministerInsulinPRN_byAIN_2RNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_61_AdministerInsulinPRN_byAIN_2RNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_168_AdministerInsulinPRN_byAIN_2RNPinDiffFaclty">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_168_AdministerInsulinPRN_byAIN_2RNPinDiffFaclty" />
+		</classes>
+	</test>
+
+	<test name="TC_169_AdministerInsulinPRN_byAIN_2SameAinPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_169_AdministerInsulinPRN_byAIN_2SameAinPin" />
+		</classes>
+	</test>
+
+	<test name="TC_170_AdministerInsulinPRN_byAIN_DiffFcltyAIN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_170_AdministerInsulinPRN_byAIN_DiffFcltyAIN" />
+		</classes>
+	</test>
+
+	<test name="TC_125_AdministerNonPackedPRN_byAIN_RnPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_125_AdministerNonPackedPRN_byAIN_RnPin" />
+		</classes>
+	</test>
+
+	<test name="TC_126_AdministerPackedPRN_ByAIN_RNPin">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_126_AdministerPackedPRN_ByAIN_RNPin" />
+		</classes>
+	</test>
+
+	<test name="TC_152_AdministerPackedPRN_VerifyProgressNote">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_152_AdministerPackedPRN_VerifyProgressNote" />
+		</classes>
+	</test>
+
+	<test name="TC_23_AdministerNIM_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_23_AdministerNIM_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_24_AdministerNIM_asAIN_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_24_AdministerNIM_asAIN_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_26_AdminsiterEmergencyStock_RN">
+		<classes>
+			<class name="com.regression.TestCases.TC_26_AdminsiterEmergencyStock_RN" />
+		</classes>
+	</test>
+
+	<test name="TC_165_AdminsiterEmergencyStock_AIN_byRN">
+		<classes>
+			<class
+				name="com.regression.TestCases.TC_165_AdminsiterEmergencyStock_AIN_byRN" />
+		</classes>
+	</test>
+
+	<test name="TC_20_Add_OBS">
+		<classes>
+			<class name="com.regression.TestCases.TC_20_Add_OBS" />
+		</classes>
+	</test>
+
+	<test name="TC_19_Add_OBS_OutofDose">
+		<classes>
+			<class name="com.regression.TestCases.TC_19_Add_OBS_OutofDose" />
+		</classes>
+	</test>
+
+	<test name="TC_29_AddProgressNote_OpenDoseRound">
+		<classes>
+			<class name="com.regression.TestCases.TC_29_AddProgressNote_OpenDoseRound" />
+		</classes>
+	</test>
+
+	<test name="TC_30_AddProgressNote_OutOfDoseRound">
+		<classes>
+			<class name="com.regression.TestCases.TC_30_AddProgressNote_OutOfDoseRound" />
+		</classes>
+	</test>
+	
+	<test name="TC_147_AddHandoverNoteFromDoseRound_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_147_AddHandoverNoteFromDoseRound_byRN" />
+		</classes>
+	</test>
+	
+	<test name="TC_148_AddHandoverNoteFromOutOfDoseRound_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_148_AddHandoverNoteFromOutOfDoseRound_byRN" />
+		</classes>
+	</test>
+	
+	<test name="TC_64_AddHandoverNoteFromHandOverMenu_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_64_AddHandoverNoteFromHandOverMenu_byRN" />
+		</classes>
+	</test>
+	
+	<test name="TC_14_AddProgressNote_MainMenu">
+		<classes>
+			<class name="com.regression.TestCases.TC_14_AddProgressNote_MainMenu" />
+		</classes>
+	</test>
+	
+	<test name="TC_153_AdministerPackedPRN_VerifyPRNEffectivness">
+		<classes>
+			<class name="com.regression.TestCases.TC_153_AdministerPackedPRN_VerifyPRNEffectivness" />
+		</classes>
+	</test>
+	
+	<test name="TC_155_AdminsiterEmergencyStock_VerifyProgNote">
+		<classes>
+			<class name="com.regression.TestCases.TC_155_AdminsiterEmergencyStock_VerifyProgNote" />
+		</classes>
+	</test>
+	
+	<test name="TC_151_SearchHandoverNotesByChangingTheDates_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_151_SearchHandoverNotesByChangingTheDates_byRN" />
+		</classes>
+	</test>
+	
+	<test name="TC_149_SearchTheResidentWithOrWithoutHandoverNotes_byRN">
+		<classes>
+			<class name="com.regression.TestCases.TC_149_SearchTheResidentWithOrWithoutHandoverNotes_byRN" />
+		</classes>
+	</test>
+	
+	<test name="TC_63_AddDrugToCart">
+		<classes>
+			<class name="com.regression.TestCases.TC_63_AddDrugToCart" />
+		</classes>
+	</test>
+	
+	<test name="TC_156_AddMultipleDrugToCart">
+		<classes>
+			<class name="com.regression.TestCases.TC_156_AddMultipleDrugToCart" />
+		</classes>
+	</test>
+	
+	<test name="TC_76_OrderMedicationFromCart">
+		<classes>
+			<class name="com.regression.TestCases.TC_76_OrderMedicationFromCart" />
+		</classes>
+	</test>
+	
+	<test name="TC_77_DeleteFromCart">
+		<classes>
+			<class name="com.regression.TestCases.TC_77_DeleteFromCart" />
+		</classes>
+	</test>
+	
+	<test name="TC_160_VerifySearch_MedicationChartPage">
+		<classes>
+			<class name="com.regression.TestCases.TC_160_VerifySearch_MedicationChartPage" />
+		</classes>
+	</test>
+	
+	<test name="TC_34_OrderingMedication_VerifyPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_34_OrderingMedication_VerifyPHM" />
+		</classes>
+	</test>
+	
+	<test name="TC_32_OrderingMedication_ExcludeEyeDrp_VerifyPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_32_OrderingMedication_ExcludeEyeDrp_VerifyPHM" />
+		</classes>
+	</test>
+	
+	<test name="TC_105_PRNMedication_ExcludeEyeDrp_VerifyPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_105_PRNMedication_ExcludeEyeDrp_VerifyPHM" />
+		</classes>
+	</test>
+	
+	<test name="TC_36_OrderMedication_Resident_VerifyPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_36_OrderMedication_Resident_VerifyPHM" />
+		</classes>
+	</test>
+	
+	<test name="TC_42_OrderOtherMedication_VerifyInPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_42_OrderOtherMedication_VerifyInPHM" />
+		</classes>
+	</test>
+	
+	
+	<test name="TC_43_FacilityOrderMedication_VerifyInPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_43_FacilityOrderMedication_VerifyInPHM" />
+		</classes>
+	</test>
+	
+	<test name="TC_59_Order_MnthEyeDrop_Medication_VerifyInPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_59_Order_MnthEyeDrop_Medication_VerifyInPHM" />
+		</classes>
+	</test>
+	
+	<test name="TC_45_Order_MnthEyeDropRegular_VerifyInPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_45_Order_MnthEyeDropRegular_VerifyInPHM" />
+		</classes>
+	</test>
+	
+	<test name="TC_161_Order_MnthEyeDropRegularPRN_VerifyInPHM">
+		<classes>
+			<class name="com.regression.TestCases.TC_161_Order_MnthEyeDropRegularPRN_VerifyInPHM" />
+		</classes>
+	</test>
+	
+
+	<!-- <test name="Chrome"> <parameter name = "browser" value ="Chrome" /> 
+		<classes> <class name="com.TestCases.TestSite1" /> </classes> </test> <test 
+		name="Edge"> <parameter name = "browser" value ="Edge" /> <classes> <class 
+		name="com.TestCases.TestSite1" /> </classes> </test> -->
+
+</suite> <!-- Suite -->
