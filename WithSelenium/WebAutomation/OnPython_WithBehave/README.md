@@ -15,7 +15,7 @@ and implement the step functions under "./project_directory/Src/steps/<Steps.py|
 and you thats it.<br/>
 
 ### [Framework Structure]<br/>
-`SelPyBehave<br/>
+SelPyBehave<br/>
 &nbsp;&nbsp;|<br/>
 &nbsp;&nbsp;|_Core [basic setting related with WebDriver and configurations] <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;|_Basic [ Classes for Selenium WebDriver ] <br/>
@@ -26,6 +26,6 @@ and you thats it.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;|_Features<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_your_feature_files.feature <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;|_steps<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_step_definition_in_python_file <br/>`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_step_definition_in_python_file <br/>
 
 > Nitya Narayan Gautam [@github: nityanarayan44]
