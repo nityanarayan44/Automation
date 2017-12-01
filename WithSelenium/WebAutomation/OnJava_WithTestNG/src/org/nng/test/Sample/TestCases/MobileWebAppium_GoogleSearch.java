@@ -20,7 +20,7 @@ public class MobileWebAppium_GoogleSearch {
 	 * | Global Instance					|
 	 * +====================================+
 	 */
-		public Driver driver ;	
+		public Driver driver;
 	
 	/* 
 	 * +====================================+
