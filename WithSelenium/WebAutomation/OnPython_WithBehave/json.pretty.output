@@ -4,32 +4,56 @@
     {
       "keyword": "Scenario", 
       "location": "Src\\Features\\A.feature:2", 
-      "name": "Doing A: Step1", 
+      "name": "This is Scenario A", 
       "steps": [
         {
           "keyword": "Given", 
           "location": "Src\\Features\\A.feature:3", 
           "match": {
-            "arguments": [], 
-            "location": "Src\\steps\\Steps.py:16"
+            "arguments": [
+              {
+                "name": "thing", 
+                "value": "a"
+              }
+            ], 
+            "location": "Src\\steps\\Steps_For_A.py:6"
           }, 
-          "name": "some data", 
+          "name": "There is some data \"a\"", 
           "result": {
-            "duration": 0.0, 
+            "duration": 0.0009999275207519531, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Given", 
+          "location": "Src\\Features\\A.feature:4", 
+          "match": {
+            "arguments": [
+              {
+                "name": "thing", 
+                "value": "a"
+              }
+            ], 
+            "location": "Src\\steps\\Steps_For_A.py:11"
+          }, 
+          "name": "i will parse that data \"a\"", 
+          "result": {
+            "duration": 0.0009999275207519531, 
             "status": "passed"
           }, 
           "step_type": "given"
         }, 
         {
           "keyword": "Then", 
-          "location": "Src\\Features\\A.feature:4", 
+          "location": "Src\\Features\\A.feature:5", 
           "match": {
             "arguments": [], 
-            "location": "Src\\steps\\Steps.py:21"
+            "location": "Src\\steps\\Steps_For_A.py:16"
           }, 
-          "name": "i will perform something", 
+          "name": "i will perform something on that Data", 
           "result": {
-            "duration": 0.0009999275207519531, 
+            "duration": 0.0, 
             "status": "passed"
           }, 
           "step_type": "then"
@@ -50,35 +74,45 @@
   "elements": [
     {
       "keyword": "Scenario", 
-      "location": "Src\\Features\\Demo.feature:2", 
-      "name": "test something", 
+      "location": "Src\\Features\\B.feature:2", 
+      "name": "thing assertion", 
       "steps": [
         {
           "keyword": "Given", 
-          "location": "Src\\Features\\Demo.feature:3", 
+          "location": "Src\\Features\\B.feature:3", 
           "match": {
-            "arguments": [], 
-            "location": "Src\\steps\\Steps.py:6"
+            "arguments": [
+              {
+                "name": "thing", 
+                "value": "apples"
+              }
+            ], 
+            "location": "Src\\steps\\Steps_For_B.py:12"
           }, 
-          "name": "some known state", 
+          "name": "there is a \"apples\"", 
           "result": {
             "duration": 0.0, 
-            "status": "passed"
+            "error_message": [
+              "Traceback (most recent call last):", 
+              "  File \"C:\\Python27\\Lib\\site-packages\behave\\model.py\", line 1456, in run", 
+              "    match.run(runner.context)", 
+              "  File \"C:\\Python27\\Lib\\site-packages\behave\\model.py\", line 1903, in run", 
+              "    self.func(context, *args, **kwargs)", 
+              "  File \"Src\\steps\\Steps_For_B.py\", line 14, in step_given_assert_thing", 
+              "    if context.things == thing:", 
+              "  File \"C:\\Python27\\Lib\\site-packages\behave", 
+              "unner.py\", line 214, in __getattr__", 
+              "    raise AttributeError(msg)", 
+              "AttributeError: 'Context' object has no attribute 'things'"
+            ], 
+            "status": "failed"
           }, 
           "step_type": "given"
         }, 
         {
           "keyword": "Then", 
-          "location": "Src\\Features\\Demo.feature:4", 
-          "match": {
-            "arguments": [], 
-            "location": "Src\\steps\\Steps.py:11"
-          }, 
-          "name": "some observed outcome", 
-          "result": {
-            "duration": 0.0009999275207519531, 
-            "status": "passed"
-          }, 
+          "location": "Src\\Features\\B.feature:4", 
+          "name": "it should also match with \"apple\"", 
           "step_type": "then"
         }
       ], 
@@ -87,9 +121,9 @@
     }
   ], 
   "keyword": "Feature", 
-  "location": "Src\\Features\\Demo.feature:1", 
-  "name": "Just a demo feature file", 
-  "status": "passed", 
+  "location": "Src\\Features\\B.feature:1", 
+  "name": "Feature file with Step Parameters (Sample)", 
+  "status": "failed", 
   "tags": []
 }
 ]

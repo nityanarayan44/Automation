@@ -1,12 +1,16 @@
-# -- FILE:Features/environment.py
-#Import Section.
+#===========================================
+# FILE:Features/environment.py
+#===========================================
+
+#===========================================
+# Import Section.
+#===========================================
 from Utils.Logger import Logger
 from behave.log_capture import capture
 
 @capture
 def before_all(context):
-    log = Logger()
-    log.write("Starting Framework >>>>>>>>>>>>>>")
+    Logger().write("Starting Framework >>>>>>>>>>>>>>")
     #print("Starting Framework.....")
 	#wd = obj.getDriver('CHROME')
 	#wd.get('http://ww.google.co.in')
@@ -17,23 +21,23 @@ def before_all(context):
 
 @capture
 def before_scenario(self, context):
-    print("Starting Scenario.....")
+    Logger().write("Starting Scenario.....")
 
 @capture
 def before_feature(self, context):
-    print("Starting Feature.....")
+    Logger().write("Starting Feature.....")
 
 @capture
 def after_scenario(self, context):
-    print("Ending Scenario.....")
+    Logger().write("Ending Scenario.....")
 
 @capture
 def after_feature(self, context):
-    print("Ending Feature.....")
+    Logger().write("Ending Feature.....")
 
 @capture
 def after_all(context):
-    #Copy and rename the created output of JSON Format.
+    #TODO: Copy and rename the created output of JSON Format.
 	print ("\n\n\n")
 	print ("+----------------------------------------------------------+")
 	print ("| Framework Executed all requested Feature File            |")

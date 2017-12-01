@@ -1,4 +1,5 @@
 Feature: Just A feature file
-Scenario: Doing A: Step1
-    Given some data
-    Then i will perform something
+Scenario: This is Scenario A
+    Given There is some data "a"
+    Given i will parse that data "a"
+    Then i will perform something on that Data

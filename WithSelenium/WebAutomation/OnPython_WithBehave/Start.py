@@ -21,34 +21,33 @@ from behave import *
 #Local Import[Mine Wrote Python Classes]
 #===========================================
 from Core.Basic.FrameworkDriver import FrameworkDriver
-from Src import *
-from Src.Utils.Printer import Printer as Printer
-from Src.steps import Steps as Steps
+#from Src import *
+#from Src.Utils.Printer import Printer as Printer
+from Src.Utils.Logger import Logger as Logger
 
-#################################################################################
+#===========================================
 #	Framework Object Setup
-#################################################################################
-#Setting Up Logger Object to log.
-log = Logger()
+#===========================================
+    # Sample Codes
+    #Printer().printInitiation()
+    #
+    # x = FrameworkDriver()
+    # driver = x.getChromeDriver()
+    #
+    # y = FrameworkUtil()
+    # driver = y.navigate(driver, 'https://www.google.com')
+    #
+    # x.closeWebDriverObject(driver)
+    #logging a text statement
+    #log.write("This is a farji LOG")
 
-#Printer().printInitiation()
-#
-# x = FrameworkDriver()
-# driver = x.getChromeDriver()
-#
-# y = FrameworkUtil()
-# driver = y.navigate(driver, 'https://www.google.com')
-#
-# x.closeWebDriverObject(driver)
-
-#logging a text statement
-log.write("This is a farji LOG")
-
-#Running BEHAVE
-print 'Running Behave Now.....'
+#===========================================
+# Running BEHAVE
+#===========================================
+Logger().write("Running Behave Now.....")
 subprocess.call(["behave"])
+Logger().write("Framework execution completed.")
 
-log.write("This is last line of the framework.")
 #################################################################################
 #	Framework End Point															#
 #################################################################################
