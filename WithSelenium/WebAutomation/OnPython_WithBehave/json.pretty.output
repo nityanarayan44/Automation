@@ -20,7 +20,7 @@
           }, 
           "name": "There is some data \"a\"", 
           "result": {
-            "duration": 0.0009999275207519531, 
+            "duration": 0.0, 
             "status": "passed"
           }, 
           "step_type": "given"
@@ -39,7 +39,7 @@
           }, 
           "name": "i will parse that data \"a\"", 
           "result": {
-            "duration": 0.0009999275207519531, 
+            "duration": 0.0, 
             "status": "passed"
           }, 
           "step_type": "given"
@@ -92,27 +92,27 @@
           "name": "there is a \"apples\"", 
           "result": {
             "duration": 0.0, 
-            "error_message": [
-              "Traceback (most recent call last):", 
-              "  File \"C:\\Python27\\Lib\\site-packages\behave\\model.py\", line 1456, in run", 
-              "    match.run(runner.context)", 
-              "  File \"C:\\Python27\\Lib\\site-packages\behave\\model.py\", line 1903, in run", 
-              "    self.func(context, *args, **kwargs)", 
-              "  File \"Src\\steps\\Steps_For_B.py\", line 14, in step_given_assert_thing", 
-              "    if context.things == thing:", 
-              "  File \"C:\\Python27\\Lib\\site-packages\behave", 
-              "unner.py\", line 214, in __getattr__", 
-              "    raise AttributeError(msg)", 
-              "AttributeError: 'Context' object has no attribute 'things'"
-            ], 
-            "status": "failed"
+            "status": "passed"
           }, 
           "step_type": "given"
         }, 
         {
           "keyword": "Then", 
           "location": "Src\\Features\\B.feature:4", 
+          "match": {
+            "arguments": [
+              {
+                "name": "other_thing", 
+                "value": "apple"
+              }
+            ], 
+            "location": "Src\\steps\\Steps_For_B.py:17"
+          }, 
           "name": "it should also match with \"apple\"", 
+          "result": {
+            "duration": 0.0009999275207519531, 
+            "status": "passed"
+          }, 
           "step_type": "then"
         }
       ], 
@@ -123,7 +123,7 @@
   "keyword": "Feature", 
   "location": "Src\\Features\\B.feature:1", 
   "name": "Feature file with Step Parameters (Sample)", 
-  "status": "failed", 
+  "status": "passed", 
   "tags": []
 }
 ]
