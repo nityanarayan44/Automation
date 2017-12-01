@@ -1,0 +1,95 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario", 
+      "location": "Src\\Features\\A.feature:2", 
+      "name": "Doing A: Step1", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "Src\\Features\\A.feature:3", 
+          "match": {
+            "arguments": [], 
+            "location": "Src\\steps\\Steps.py:16"
+          }, 
+          "name": "some data", 
+          "result": {
+            "duration": 0.0, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "Src\\Features\\A.feature:4", 
+          "match": {
+            "arguments": [], 
+            "location": "Src\\steps\\Steps.py:21"
+          }, 
+          "name": "i will perform something", 
+          "result": {
+            "duration": 0.0009999275207519531, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }
+  ], 
+  "keyword": "Feature", 
+  "location": "Src\\Features\\A.feature:1", 
+  "name": "Just A feature file", 
+  "status": "passed", 
+  "tags": []
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario", 
+      "location": "Src\\Features\\Demo.feature:2", 
+      "name": "test something", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "Src\\Features\\Demo.feature:3", 
+          "match": {
+            "arguments": [], 
+            "location": "Src\\steps\\Steps.py:6"
+          }, 
+          "name": "some known state", 
+          "result": {
+            "duration": 0.0, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "Src\\Features\\Demo.feature:4", 
+          "match": {
+            "arguments": [], 
+            "location": "Src\\steps\\Steps.py:11"
+          }, 
+          "name": "some observed outcome", 
+          "result": {
+            "duration": 0.0009999275207519531, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }
+  ], 
+  "keyword": "Feature", 
+  "location": "Src\\Features\\Demo.feature:1", 
+  "name": "Just a demo feature file", 
+  "status": "passed", 
+  "tags": []
+}
+]
