@@ -1,0 +1,15 @@
+#Settings
+# Example key=property, no gaps
+#
+BROWSER_TYPE=CHROME
+DRIVER_PATH=C:\\WebDriver\\chromedriver_win32\\chromedriver.exe
+#
+JENKINS_SERVER_PATH=http://127.0.0.1:8080/
+JENKINS_SERVER_USER=admin
+JENKINS_SERVER_PASS=system
+JOB_NAME= ALL or NONE or JOB1 or etc
+#
+GPS_URL=http://www.ourgoalplan.com/Login.aspx
+GPS_USER_ID=ashutosh.mishra
+GPS_USER_PWD=ashutosh@mindfire
+GPS_GOALS= Discussion with team, Working with my automation script, Exploring documentation
